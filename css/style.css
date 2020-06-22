@@ -165,3 +165,8 @@ header .site-title {
 .slider-two .slick-track .product:hover span{
     background-color: var(--primary-color);
 }
+
+.Merch_Item_Image{
+    Height: 200px;
+    width: 200px;
+}
