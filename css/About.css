@@ -39,7 +39,7 @@ line-height: 25px;
 float: left;
 padding-left: 20px;
 padding-right: 20px;
-color: #A3A3A3;
+color: #A5A5A5;
 }
 .gallery {
 clear: both;
@@ -64,7 +64,7 @@ margin-left: 1%;
 margin-right: 1%;
 border-radius: 3px;
 padding-top: 20px;
-border-bottom: 4px solid #6DC7D0;
+border-bottom: 4px solid #A5A5A5;
 }
 .gallery .thumbnail h4 {
 margin-top: 5px;
@@ -133,7 +133,7 @@ color: #FFFFFF;
 transition: all 0.3s linear;
 }
 .button:hover {
-background-color: #6DC7D0;
+background-color: #A5A5A5;
 color: #FFFFFF;
 cursor: pointer;
 }
