@@ -69,7 +69,7 @@ border-bottom: 4px solid #6DC7D0;
 .gallery .thumbnail h4 {
 margin-top: 5px;
 margin-bottom: 5px;
-color: #52BAD5;
+color: #A5A5A5;
 text-align: left;
 padding-left: 20px;
 padding-right: 20px;
@@ -88,7 +88,7 @@ padding-top: 30px;
 float: left;
 }
 .intro .column h3 {
-color: #FFFFFF;
+color:#A5A5A5;
 text-align: center;
 }
 .intro .column p {
@@ -155,7 +155,7 @@ padding-bottom: 60PX;
 }
 .intro {
 display: inline-block;
-background-color: #6DC7D0;
+background-color: #A5A5A5;
 }
 .profile {
 width: 50%;
