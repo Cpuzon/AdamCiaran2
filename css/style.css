@@ -10,6 +10,7 @@
 --roboto:"Roboto", sans-serif;
 --gugi:"Gugi", cursive;
 --sofia:"Sofia",cursive;
+--nav-thing: #000000;
 }
 
 .primary-color{
@@ -63,7 +64,7 @@ header .site-title {
 
 .navbar-nav.nav-link{
     font-size: 0.9em;
-    color: var(--light-gray)!important;
+    color: var(--nav-thing)!important;
 }
 .navbar-nav .nav-item .nav-link{
    padding: 0 1.3em; 
