@@ -6,6 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>GOATTEDBBALL Merchandise</title>
 
+     <!-- Bootstrap CDN -->
+     <link 
+     rel="stylesheet" 
+     href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+     crossorigin="anonymous"
+     />
+ 
+ <!-- Font Awesome CDN -->
+ <script src="https://kit.fontawesome.com/0f833c8f2c.js" crossorigin="anonymous"></script>
+ 
+ <!-- Slick Slider -->
+ <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+ 
+ <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/Signup.css">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GOATTEDBBALL Merchandise</title>
+
     <!-- Bootstrap CDN -->
     <link 
     rel="stylesheet" 
@@ -21,7 +45,7 @@
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
 <!-- Custom Stylesheet -->
-<link rel="stylesheet" href="./css/games.css">
+<link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
@@ -90,7 +114,8 @@
               </ul>
             </div>
             <div class="navbar-nav">
-                <input type="text" name="search" placeholder="Search..">
+                <li class="nav-item border rounded-circle mx-2 search-icon">
+                    <i class="fas fa-search p-2"></i>
                 </li>
                 <li class="nav-item border rounded-circle mx-2 basket-icon">
                     <i class="fas fa-shopping-basket p-2"></i>
@@ -102,5 +127,28 @@
 
 <!-- /Header -->
 
-<div class="game"> <iframe width="1365" height="600" src="http://c4arena.com/embed" frameborder="0"></iframe>
-</div>
+
+<form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Sign In</h1>
+      <p>Please fill in this form to sign in</p>
+      <hr>
+  
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+  
+      <p>By signing in you agree to our <a href="" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign In</button>
+      </div>
+    </div>
+  </form>
