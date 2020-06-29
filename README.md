@@ -1,5 +1,6 @@
 # AdamCiaran2 你准备好了吗？
 initial idea: Create merchandise store for Goatedbball using html, css and  java script. Learn new java script and combine it with our old skills of html and css.
+
 Pages include: Home Screen page , Store page and about us page. 
 Home page Header section
 - title
